@@ -1,0 +1,163 @@
+body {
+    background-color: rgb(20, 19, 19);
+}
+#top-container{
+    margin-left: 576px;
+}
+
+.style-containers {
+    background-color: white;
+    border: 6px solid red;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px purple;
+
+
+}
+#first-container{
+    text-align: center;
+    width: 35%;
+    padding: 10px 50px;
+
+    font-size: 38px;
+
+}
+
+#my-para {
+
+    text-align: center;
+    color: rgb(137, 20, 20);
+    text-shadow: 1px 1px 2px purple;
+
+}
+#floats-container{
+
+    padding: 5px;
+    margin: 5px;
+    height: 300px;
+    margin-bottom: 30px;
+}
+#floats-container-1{
+
+    padding: 5px;
+    margin: 5px;
+    height: 300px;
+    margin-bottom: 30px;
+}
+.style-container-1{
+
+
+    color: rgb(54, 3, 3);
+    text-shadow: 1px 1px 2px purple;
+
+
+
+}
+#div1{
+    float: left;
+
+    font-size: 32px;
+    height: 258px;
+    width: 258px;
+    text-align: center;
+    padding: 8px;
+}
+#div2{
+    float: right;
+
+}
+#div3{
+    float: left;
+    font-size: 32px;
+    height: 258px;
+    width: 258px;
+    text-align: left;
+    padding: 8px;
+}
+#div4{
+    float: right;
+    height: 258px;
+    width: 258px;
+    text-align: center;
+    padding: 8px;
+}
+#image{
+
+    padding: 8px;
+    margin: 5px;
+    height: 250px;
+    width: 250px;
+}
+.inline-para{
+    display: inline;
+}
+#SubmitButton{
+   background-color: red;
+   border-radius: 10px;
+}
+#store-container{
+    background-color: rgb(9, 98, 9);
+    border: 10px solid rgb(74, 1, 74);
+    margin: 65px 267px;
+    text-align: center;
+    font-size: 23px;
+    padding: 30px;
+    font-style: italic;
+
+
+}
+#flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.MyStore-container{
+    background-color: rgb(247, 247, 118);
+    width: 45%;
+    padding: 15px;
+    margin: 5px;
+}
+#order-container{
+    background-color: rgb(247, 247, 118);
+    width: 101%;
+    padding: 15px;
+    margin: 15px;
+   position: relative;
+   bottom: 1px;
+   right: 14px;
+
+}
+#fixed-container{
+    background-color: greenyellow;
+    border: 8px solid red;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px purple;
+    color: rgb(101, 11, 11);
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 22px;
+    position: fixed;
+    bottom: 34px;
+    left: 480px;
+
+
+}
+#Offers{
+    width: 60%;
+    display: inline;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+#Offers-1{
+    width: 30%;
+    display: inline;
+    font-size: 23px;
+    position: relative;
+    top: 21px;
+    text-align: center;
+
+}
